@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSphere</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="75f3545e-ee39-4286-8719-d46c696e5bcd.jpeg" alt="Shopping"> 
+        </div>
+        <section class="filter-section">
+            <label for="category">Category:</label>
+            <select id="category">
+                <option value="all">All</option>
+                <option value="men">Men</option>
+                <option value="women">Women</option>
+                <option value="kids">Kids</option>
+                <option value="kids">Bags & Footwear</option>
+                <option value="kids">Beauty & Health</option>
+                <option value="kids"> Electronics</option>
+            </select>
+    
+            <label for="price">Price Range:</label>
+            <select id="price">
+                <option value="all">All</option>
+                <option value="low">Under Rs.150</option>
+                <option value="medium">Rs.150 - Rs.300</option>
+                <option value="high">Over Rs.300</option>
+            </select>
+            
+        </section>
+        <input type="text" placeholder="Search for products..." class="search-bar"><br>
+        <nav>
+            <a href="#" class="nav-item">
+                <i class="fas fa-user"></i>
+                <span>Profile</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-heart"></i>
+                <span>Wishlist</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-shopping-cart"></i>
+                <span>Cart</span>
+            </a>
+        </nav>
+    </header>
+    <section class="clothes" id="clothes"><br>
+        <div class="men-wear">
+           <div class="wear">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJzK8_f_DcHxDiE-tyHYstc1qR3EPc15Dolw&s" alt="Sherwani">
+          <p>Embroidered Sherwani Set</p>
+            <p>Price: Rs.500</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+         
+           <div class="wear">
+            <img src="https://img.freepik.com/free-photo/handsome-confident-young-curly-haired-man-drinking-coffee-standing-infront-isolated-white-wall_231208-1086.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Jacket">
+           <p>Stand Collar Padded Jacket</p>
+            <p>Price: Rs.450</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+           </div>
+           <div class="wear">
+            <img src="https://img.freepik.com/premium-photo/handsome-young-man-keeping-arms-looking-camera-while-posing-against-grey-background_425904-25443.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="T-shirt">
+            <p>High-Low Cotton T-shirt</p>
+             <p>Price: Rs.300</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+           </div>
+           <div class="wear">
+            <img src="https://img.freepik.com/premium-photo/two-indian-men-wears-ethnic-traditional-cloths-male-fashion-models-with-sherwani-kurta-pyjama-sitting-posing-wing-chair-sofa-against-brown-grunge-background-selective-focus_466689-45371.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Sherwani">
+            <p>Floral Emboroidered Sherwani</p>
+            <p>Price: Rs.600</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+           </div>
+        </div><br>
+    
+        <div class="women-wear">
+               <div class="wear">
+                <img src="https://media3.giphy.com/media/LpoEw2tpIkhLq/200w.gif?cid=6c09b9520oumlgisy1o6eu87gej4aghoroez0apw0uqgojp1&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="Dress">
+               <p>Classic Partywear Women Dress</p>
+                <p>Price: Rs.400</p>
+                <div class="product-buttons">
+                    <button class="wishlist-btn">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               </div>
+               <div class="wear">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Xk4r7r9pkt9ijSmm2cKD9cw5w5WuYDhCTA&s" alt="Kurti">
+                <p>Womens Rayon Kurti With Duppata</p>
+                <p>Price: Rs.300</p>
+                <div class="product-buttons">
+                    <button class="wishlist-btn">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               </div>
+    
+               <div class="wear">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsd7zMesauUOs6ZJOHStRoFnSoCay4bPzeaw&s" alt="Lehanga">
+             <p>Chikankari Aakarsha Women Lehenga</p>
+                <p>Price: Rs.900</p>
+                <div class="product-buttons">
+                    <button class="wishlist-btn">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               </div>
+    
+               <div class="wear">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC0piKzkVa0HHWaY0H0UWLtWogVexmXgDgmw&s" alt="Sarees">
+                <p>Banita Alluring Sarees</p>
+                <p>Price: Rs.700</p>
+                <div class="product-buttons">
+                    <button class="wishlist-btn">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               </div>
+      </div><br>
+      <div class="kids-wear">
+        <div class="wear">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxJYBmuZTJQ0lY5XIQxJXNQL_8_KBsIis0Qw&s" alt="Lehanga">
+            <p>Cutiepie Elegant Kids Girls Lehanga Cholis</p>
+            <p> Price: Rs.500</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+           </div>
+
+           <div class="wear">
+            <img src="https://img.freepik.com/free-photo/two-beautiful-girls-pastel_155003-12459.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Top">
+           <p>Princess Classy Girls Top Bottom Sets</p>
+            <p>Price: Rs.400</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+           </div>
+
+           <div class="wear">
+            <img src="https://img.freepik.com/free-photo/pretty-young-boy-casual-clothes-white-studio_155003-32750.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Top">
+            <p>Cut Fancy Boys Top & Bottom Sets</p>
+            <p>Price: Rs.300</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+           </div>
+
+           <div class="wear">
+            <img src="https://img.freepik.com/premium-photo/checking-up-his-style-full-length-handsome-little-boy-adjusting-his-hat-looking-up-while-standing-against-white-blue-background_425904-23795.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Top">
+            <p>Cut Fancy Boys Top & Bottom Sets</p>
+            <p>Price: Rs.250</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+           </div>
+    </div>
+      </section><br>
+      <!---- Bags and footwear----->
+      <section class="bags-footwear" id="bags-footwear">
+        <div class="bags">
+           <div class="bf">
+            <img src="https://img.freepik.com/free-photo/still-life-say-no-fast-fashion_23-2149669561.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="bags">
+          <p>HerCraft Shoulder Pu-Leather Handbags</p>
+            <p>Price: Rs.300</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+         
+           <div class="bf">
+            <img src="https://media.istockphoto.com/id/1204192345/photo/flying-suitcase.jpg?s=612x612&w=0&k=20&c=BJAw825K5vjy7KFh_Z1xuhKlPjjTBE5vUYeTmTouf2w=" alt="bags">
+           <p>Fashionate Women Trolly Bags</p>
+            <p>Price: Rs.1500</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+           </div>
+           <div class="bf">
+            <img src="https://img.freepik.com/premium-photo/woman-leather-fashion-bag_1339-110125.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Slingbage">
+            <p>Classic Fashionable Womens Slingbage</p>
+             <p>Price: Rs.200</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+           </div>
+           <div class="bf">
+            <img src="https://img.freepik.com/free-photo/retail-merchandise-xmas-store-colorful_1203-5649.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="bags">
+            <p>Classic Resuble Bags</p>
+            <p>Price: Rs.100</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+           </div>
+        </div><br>
+    
+        <div class="footwear">
+               <div class="bf">
+                <img src="https://img.freepik.com/free-photo/girl-with-orange-shoes_144627-12935.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Shoes">
+                <p>Latest Trendy Men Casual Shoes</p>
+                <p>Price: Rs.300</p>
+                <div class="product-buttons">
+                    <button class="wishlist-btn">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               </div>
+               <div class="bf">
+                <img src="https://img.freepik.com/premium-photo/bride-wedding-shoes_1048944-17030524.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Heels">
+                <p>Attractive Women Heels</p>
+                <p>Price: Rs.250</p>
+                <div class="product-buttons">
+                    <button class="wishlist-btn">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               </div>
+    
+               <div class="bf">
+                <img src="https://img.freepik.com/free-photo/vertical-shot-little-girl-roller-skates-sitting-stool-drinking-juice_181624-32983.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Rollerskates">
+                <p>Classic Rollerskates</p>
+                <p>Price: Rs.800</p>
+                <div class="product-buttons">
+                    <button class="wishlist-btn">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               </div>
+    
+               <div class="bf">
+                <img src="https://img.freepik.com/premium-photo/sandals_483040-12428.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Sandals">
+                <p>Trendy Kids Boy Sandals</p>
+                <p>Price: Rs.250</p>
+                <div class="product-buttons">
+                    <button class="wishlist-btn">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               </div>
+      </div>
+      </section><br>
+        <!----Beauty and Health ----->
+        <section class="beauty-health" id="beauty-health">
+            <div class="beauty">
+               <div class="bh">
+                <img src="https://img.freepik.com/free-photo/conceptual-image-make-up-brushes-roses-wooden-background_482257-9819.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Brushes">
+             <p>Trendy Makeup Brushes</p>
+             <p>Price: Rs.150</p>
+                <div class="product-buttons">
+                    <button class="wishlist-btn">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                    </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+             
+               <div class="bh">
+                <img src="https://img.freepik.com/premium-photo/lipstick-rose-flowers_144962-2919.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Lipsticks">
+                <p>Trendy Lipsticks</p>
+                <p>Price: Rs.120</p>
+                <div class="product-buttons">
+                    <button class="wishlist-btn">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               </div>
+               <div class="bh">
+                <img src="https://img.freepik.com/free-photo/high-angle-makeup-products-arrangement_23-2149721989.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Makeup-combo">
+                <p>Everyday Makeup Combo</p>
+                 <p>Price: Rs.200</p>
+                <div class="product-buttons">
+                    <button class="wishlist-btn">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               </div>
+               <div class="bh">
+                <img src="https://img.freepik.com/free-photo/foundation-product-branding-still-life_23-2149665156.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Foundation">
+                <p>Foundation Vanilla</p>
+                <p>Price: Rs.150</p>
+                <div class="product-buttons">
+                    <button class="wishlist-btn">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               </div>
+            </div><br>
+        
+            <div class="health">
+                   <div class="bf">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj3k1jivEYXqE8JF0VYCImnsx8-HB7OVa2zQ&s" alt="Chyawanprash">
+                    <p>Dabur Chyawanprash</p>
+                    <p>Price: Rs.345</p>
+                    <div class="product-buttons">
+                        <button class="wishlist-btn">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button class="cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                   </div>
+                   <div class="bh">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqKZKEFnkWHPWX0xSIRwmazf376MbwA2xFVA&s" alt="Anjeer">
+                    <p>Dry Anjeer</p>
+                    <p>Price: Rs.200</p>
+                    <div class="product-buttons">
+                        <button class="wishlist-btn">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button class="cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                   </div>
+        
+                   <div class="bh">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQno4IstvJq2amILtUS6ZXMcazs_oOtfZw7Bw&s" alt="Juice">
+                    <p>Aloevera Juice</p>
+                    <p> Price: Rs.399</p>
+                    <div class="product-buttons">
+                        <button class="wishlist-btn">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button class="cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                   </div>
+        
+                   <div class="bh">
+                    <img src="https://img.freepik.com/free-vector/hand-sanitizer-against-viruses-ad_52683-45123.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="Senitizers">
+                    <p>Hand Senitizers/Didinfectant</p>
+                    <p>Price: Rs.190</p>
+                    <div class="product-buttons">
+                        <button class="wishlist-btn">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button class="cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                   </div>
+          </div><br>
+          </section>
+            <!---- Electicles section----->
+      <section class="Electicles" id="Electicles">
+        <div class="electicles">
+           <div class="el">
+            <img src="https://img.freepik.com/free-photo/elegant-smartphone-composition_23-2149437106.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="">
+          <p>Smart Phone</p>
+            <p>Price: Rs.8,999</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+         
+           <div class="el">
+            <img src="https://img.freepik.com/free-photo/still-life-wireless-cyberpunk-headphones_23-2151072202.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="">
+           <p>boAt Rockerz 450</p>
+            <p>Price: Rs.1,499</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+           </div>
+           <div class="el">
+            <img src="https://img.freepik.com/premium-photo/directly-ceiling-fan_1048944-22358558.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="">
+            <p>Ceiling Fan</p>
+             <p>Price: Rs.759</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+           </div>
+           <div class="el">
+            <img src="https://img.freepik.com/free-vector/blender-with-red-lid_1308-11612.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="">
+            <p>Bajaj Mixer Grinder</p>
+            <p>Price: Rs.1,999</p>
+            <div class="product-buttons">
+                <button class="wishlist-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+           </div>
+        </div>
+      </section><br>
+        <!--footer section-->
+    <footer>
+        <div class="contact"> 
+            <h3>Customer Policies</h3>
+            <a href="#">Contact Us</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Returns</a>
+            <a href="#">FAQ</a>
+        </div>
+        <div class="social">
+            <h3>Reach out to us</h3>
+            <a href="#"><img src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="insta"></a>
+            <a href="#"><img src="https://img.freepik.com/free-psd/social-media-logo-design_23-2151296987.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="facebook"></a>
+            <a href="#"><img src="https://img.freepik.com/free-vector/youtube-player-icon-with-flat-design_23-2147839964.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="youtube"></a>
+            <a href="#"><img src="https://img.freepik.com/free-vector/twitter-new-logo-x-icon-design_1017-45424.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="twitter"></a>
+            <a href="#"><img src="https://img.freepik.com/premium-photo/linkdin-logo_1080029-102.jpg?uid=R176814687&ga=GA1.1.1216652953.1716308943&semt=ais_hybrid" alt="linkdin"></a>
+        </div>
+                <p>© 2024 ShopSphere</p>
+            </footer>
+        </body>
+        </html
